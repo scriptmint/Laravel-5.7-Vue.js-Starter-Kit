@@ -71,7 +71,7 @@ Author assumes that you have basic knowledge of Laravel & Javascript to start de
 
 For any kind of support, you can raise a ticket in this portal.
 
-### I am looking forward for your suggestions & feedback for this script & I will surely implement your feature request if feasible. Don't forget to rate my application.
+### I am looking forward for your suggestions & feedback for this script & I will surely implement your feature request if feasible. Don't forget to star this repo if you find it useful.
 
 ## Pre Requisites
 
