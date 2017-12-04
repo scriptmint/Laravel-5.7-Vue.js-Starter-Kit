@@ -8,7 +8,7 @@
 * [Social Login Configuration](#social-login)
 * [Compiling Assets](#compiling)
 
-## Introductin
+## Introduction
 
 There are many Laravel+Vue.js starter kit available but none of them are complete enough to get started. Some lacks with basic functionality like authentication, some with sample CRUD module, some with responsive layout etc. I tried to create one starter kit with some basic features like authentication, registration, user profile with a sample task module which is built on latest version of bootstrap.This script can be handy enough for your new Laravel+Vue.js project & will surely speed-up your project development time. If you are working first time on Laravel+Vue.js or learning Vue.js then this is perfect script to get started.
 
@@ -82,7 +82,7 @@ As the application is built with Laravel 5.5, it requires to follow all the pre-
 * Tokenizer PHP Extension
 * XML PHP Extension
 
-[You may read detailed article to install Laravel based application here](http://support.wmlab.in/support/solutions/folders/17000098173).
+[You may read detailed article to install Laravel based application here](https://docs.scriptmint.com).
 
 ## Folder & File Structure
 
@@ -102,37 +102,37 @@ The script use only single Laravel blade file which is placed under resources/vi
 
 ### Here are details of all the folders available in resources/assets folder.
 
-Images:
+#### Images:
 
-    This includes all the images that are referred in any style sheet or js file. Make sure you put those images in this folder only. During compilation, you will get all these files processed at public/images folder.
+This includes all the images that are referred in any style sheet or js file. Make sure you put those images in this folder only. During compilation, you will get all these files processed at public/images folder.
 
-Js:
+#### Js:
 
-    This folder is basically the most important container for this script. As all the Vue components are basically Javascript file therefore they are placed under this folder. This includes three sub folders:
+This folder is basically the most important container for this script. As all the Vue components are basically Javascript file therefore they are placed under this folder. This includes three sub folders:
 
-    * layouts: It is basically layout structure of this script. It includes vue files divided into multiple segment like header.vue, footer.vue etc. The file guest-page.vue renders guest page (like login page which can be accessed without login). The file default-page.vue renders application page (which will be accessible only after login) & error-page.vue which renders error page layout.
-    * services: These are basically helper javascript files.
-    * views: These are pages which will be rendered when you navigate to a certain page. For example, If you navigate to {{your_domain}}/login, the file resources/assets/js/views/authentication/login.vue is rendered. All the files are grouped by modules.
+* layouts: It is basically layout structure of this script. It includes vue files divided into multiple segment like header.vue, footer.vue etc. The file guest-page.vue renders guest page (like login page which can be accessed without login). The file default-page.vue renders application page (which will be accessible only after login) & error-page.vue which renders error page layout.
+* services: These are basically helper javascript files.
+* views: These are pages which will be rendered when you navigate to a certain page. For example, If you navigate to {{your_domain}}/login, the file resources/assets/js/views/authentication/login.vue is rendered. All the files are grouped by modules.
 
-    ### Here are details of file available in resources/assets/js
+### Here are details of file available in resources/assets/js
 
-    * app.js: This is entry point of all the Javascript files. It is also a place where you define new Vue app.
-    * bootstrap.js: It is default Javascript file provide by Laravel where you can import various dependencies including Axios, Vue-Router, Vuex etc.
-    * custom.js: It is basically jQuery scripts written for layout design.
-    * routes.js: It is used to define the Vue router path and the component it will render for the page. It is like routes.php or web.php file in Laravel. [For details visit here](https://router.vuejs.org/).
-    * store.js: It is used to define Vuex store. [For details visit here](http://vuex.vuejs.org/).
+* app.js: This is entry point of all the Javascript files. It is also a place where you define new Vue app.
+* bootstrap.js: It is default Javascript file provide by Laravel where you can import various dependencies including Axios, Vue-Router, Vuex etc.
+* custom.js: It is basically jQuery scripts written for layout design.
+* routes.js: It is used to define the Vue router path and the component it will render for the page. It is like routes.php or web.php file in Laravel. [For details visit here](https://router.vuejs.org/).
+* store.js: It is used to define Vuex store. [For details visit here](http://vuex.vuejs.org/).
 
-Plugins:
+#### Plugins:
 
-    This folder contains all the external plugins which you want to use in this script. For example, this script uses jQuery plugin which is place under this folder. Similarly, Bootstrap files are placed in this folder. If you are going to use any other plugin, I strongly suggest you to put under this folder. You can import the style sheet of that plugin into resources/Assets/saas/style.scss & combine the js of that plugin in webpack.mix.js file.
+This folder contains all the external plugins which you want to use in this script. For example, this script uses jQuery plugin which is place under this folder. Similarly, Bootstrap files are placed in this folder. If you are going to use any other plugin, I strongly suggest you to put under this folder. You can import the style sheet of that plugin into resources/Assets/saas/style.scss & combine the js of that plugin in webpack.mix.js file.
 
-Style sheet:
+#### Style sheet:
 
-    Head tag includes single style sheet called style.css which includes all the style sheets including bootstrap, plugin style sheet and custom style sheet. Basically resources/assets/sass/style.scss is entry point of all the style sheets which imports all other style sheets.A custom.scss file is also available in resources/assets/sass folder where you can put all your custom css code. Mind the order of import of css in resources/assets/sass/style.scss file. If you import custom.scss file before other scss file, then your custom css code will be overridden by other css code.
+Head tag includes single style sheet called style.css which includes all the style sheets including bootstrap, plugin style sheet and custom style sheet. Basically resources/assets/sass/style.scss is entry point of all the style sheets which imports all other style sheets.A custom.scss file is also available in resources/assets/sass folder where you can put all your custom css code. Mind the order of import of css in resources/assets/sass/style.scss file. If you import custom.scss file before other scss file, then your custom css code will be overridden by other css code.
 
-    When you deploy your application in live server, you need not to upload contents of "node_modules" folder & "resources/assets" folder. During compilation all the required files are bundled and placed at public folder.
+When you deploy your application in live server, you need not to upload contents of "node_modules" folder & "resources/assets" folder. During compilation all the required files are bundled and placed at public folder.
 
-    If you have an query regarding this folder structure, you may raise an issue here.
+If you have an query regarding this folder structure, you may raise an issue here.
 
 ## Installation Guideline
 
