@@ -7,8 +7,6 @@
 * [Social Login Configuration](#social-login)
 * [Compiling Assets](#compiling)
 
-## Online Demo
-
 To get more advance feature in Starter Kit, [you may visit www.scriptmint.com & purchase Advanced Laravel Vue.js Starter Kit](https://scriptmint.com/product/laravel-vue-js-spa-bootstrap-admin-starter-kit/03031506)
 
 ## Introduction
