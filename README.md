@@ -1,8 +1,5 @@
-[Click here to visit demo of Laravel 5.7 Vue.js Starter Kit](https://laravue.scriptmint.com)
-
 # Laravel Vue.js SPA Bootstrap Admin Starter Kit
 
-* [Online Demo](#demo)
 * [Introduction](#introduction)
 * [Pre Requisites](#pre-requisites)
 * [Folder & File Structure](#structure)
@@ -11,8 +8,6 @@
 * [Compiling Assets](#compiling)
 
 ## Online Demo
-
-[Click here to visit demo of Laravel Vue.js Starter Kit](https://laravue-basic.scriptmint.com)
 
 To get more advance feature in Starter Kit, [you may visit www.scriptmint.com & purchase Advanced Laravel Vue.js Starter Kit](https://scriptmint.com/product/laravel-vue-js-spa-bootstrap-admin-starter-kit/03031506)
 
